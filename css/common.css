@@ -255,14 +255,15 @@ p {
 }
 .controls-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 16px;
   border-radius: 8px;
   padding: 32px;
-  max-width: 486px;
+  max-width: 1000px;
   background: #f6f6fe;
+  margin: auto;
 }
 
 .controls-amount {
@@ -317,10 +318,11 @@ p {
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1000px;
   gap: 40px;
   padding: 32px;
   background: #f6f6fe;
   border-radius: 8px;
-  min-width: 486px;
+  margin: auto;
   margin-top: 16px;
 }

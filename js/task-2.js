@@ -25,16 +25,11 @@ const images = [
   }
 ];
 
-
-const list = document.querySelector('.gallery');
+    const list = document.querySelector('.gallery');
  
-    const addImages = (images) => {
-      const addImage = images.slice(0, 3).map(image => 
-        `<li class="gallery-item">
-          <img src="${image.url}" alt="${image.alt}" width=360 height=300>
-        </li>`
-      ).join("");
-      list.insertAdjacentHTML("beforeend", addImage);
-    };
+const addImages = images.slice(0, 3).map(image =>
+      `<li class='gallery-item'><img src="${image.url}" alt="${image.alt}" width=360 height=300/></li>`
+  ).join('');
 
-    addImages(images);
+list.insertAdjacentHTML('beforeend', addImages);
+
