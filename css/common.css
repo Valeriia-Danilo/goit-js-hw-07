@@ -319,7 +319,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
-  gap: 40px;
+  gap: 44px;
   padding: 32px;
   background: #f6f6fe;
   border-radius: 8px;
